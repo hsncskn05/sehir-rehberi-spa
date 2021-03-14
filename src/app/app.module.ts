@@ -24,7 +24,6 @@ import { from } from 'rxjs';
     AppRoutingModule,
     HttpClientModule,
     RouterModule.forRoot(appRoutes)
-    //,NgxGalleryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
