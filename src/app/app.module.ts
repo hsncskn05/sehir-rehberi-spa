@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import {HttpClientModule} from '@angular/common/http';
 import {RouterModule} from '@angular/router'
 import {appRoutes} from './routes'
-import {NgxGalleryModule} from 'ngx-gallery'
+//import {NgxGalleryModule} from 'ngx-gallery'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ValueComponent } from './value/value.component';
@@ -24,7 +24,7 @@ import { from } from 'rxjs';
     AppRoutingModule,
     HttpClientModule,
     RouterModule.forRoot(appRoutes)
-    ,NgxGalleryModule
+    //,NgxGalleryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
